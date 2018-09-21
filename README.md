@@ -4,6 +4,7 @@ TODO
 Usage
 
 ```rust
+#[allow(unused)]
 #[macro_use]
 extern crate todo;
 

@@ -1,0 +1,14 @@
+[package]
+name = "todo"
+version = "0.1.0"
+authors = ["Scott Steele <scottlsteele@gmail.com>"]
+
+homepage = "https://github.com/scooter-dangle/todo"
+repository = "https://github.com/scooter-dangle/todo"
+description = "Minuscule `TODO!` macro that lets you type-check and test but prevent compiling in release mode"
+documentation = "https://docs.rs/todo"
+categories = []
+keywords = ["todo"]
+readme = "README.md"
+
+license = "Apache-2.0"

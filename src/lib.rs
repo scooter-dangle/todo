@@ -1,5 +1,6 @@
 #[cfg(not(debug_assertions))]
 #[allow(unused)]
+#[macro_export]
 macro_rules! TODO {
     ($message:expr; $dummy:expr) => {
         compile_error!(concat!(
@@ -23,6 +24,7 @@ macro_rules! TODO {
 
 #[cfg(debug_assertions)]
 #[allow(unused)]
+#[macro_export]
 macro_rules! TODO {
     ($message:expr; $dummy:expr) => {{
         $dummy
